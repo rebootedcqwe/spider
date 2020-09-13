@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 string1 = 'aaa bbb'
 string2 = "ccc"
 string3 = string1 + " " + string2
