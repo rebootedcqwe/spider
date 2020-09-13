@@ -14,8 +14,8 @@ if [ ! -d "$directory" ]; then
 else
   echo ".git directory   is  exist!!!"
 fi
-read -p "Please input your directory: " name
-cd $name
+#read -p "Please input your directory: " name
+#cd $name
 git add -A
 git status
 read -p "Please input your commit: " name2
